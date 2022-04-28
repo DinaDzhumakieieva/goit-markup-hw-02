@@ -94,11 +94,15 @@ body {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: #2196F3;
+    cursor: pointer;
 }
 .main-button:hover,
 .main-button:focus {
     background-color: #188CE8;
     color: #FFFFFF;
+}
+.hero {
+    background-color: #2F303A;
 }
 /* ======== /HERO ======== */
 
@@ -167,6 +171,13 @@ color: rgba(255, 255, 255, 0.6);
 .contacts:focus {
     color: #2196F3;
 }
+.adress:hover,
+.adress:focus {
+    color: #2196F3;
+}
+.footer {
+    background-color: #2F303A;
+}
 /* ======== /FOOTER ======== */
 
 /* ======== PORTFOLIO ======== */
@@ -177,6 +188,7 @@ color: rgba(255, 255, 255, 0.6);
     text-align: center;
     letter-spacing: 0.03em;
     background-color: #F5F4FA;
+    cursor: pointer;
 }
 .filter-button:hover,
 .filter-button:focus {
